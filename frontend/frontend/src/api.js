@@ -1,4 +1,4 @@
-export const API_BASE = 'http://localhost:5000/api';
+export const API_BASE = 'https://college-result-system.onrender.com/api';
 
 export async function postJSON(path, body) {
   const res = await fetch(`${API_BASE}${path}`, {
